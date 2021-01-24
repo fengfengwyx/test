@@ -1,0 +1,191 @@
+2021-01-23 22:49:31 668 [13740][1][CGICurl]:[CURL]Connected to www.wegame.com.cn (119.84.157.161) port 443 (#0)
+
+2021-01-23 22:49:31 668 [13740][1][CGICurl]:[CURL]ALPN, offering http/1.1
+
+2021-01-23 22:49:31 668 [13740][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:49:31 668 [13740][1][CGICurl]:[CURL]TLSv1.3 (OUT), TLS handshake, Client hello (1):
+
+2021-01-23 22:49:31 668 [13740][1][CGICurl]:[CURL]Type: 6, size: 512.
+2021-01-23 22:49:31 687 [13740][1][CGICurl]:[CURL]TLSv1.3 (IN), TLS handshake, Server hello (2):
+
+2021-01-23 22:49:31 688 [13740][1][CGICurl]:[CURL]TLSv1.2 (IN), TLS handshake, Certificate (11):
+
+2021-01-23 22:49:31 688 [13740][1][CGICurl]:[CURL]TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+
+2021-01-23 22:49:31 688 [13740][1][CGICurl]:[CURL]TLSv1.2 (IN), TLS handshake, Server finished (14):
+
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]Type: 6, size: 70.
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]Type: 6, size: 1.
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]TLSv1.2 (OUT), TLS handshake, Finished (20):
+
+2021-01-23 22:49:31 691 [13740][1][CGICurl]:[CURL]Type: 6, size: 16.
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL]TLSv1.2 (IN), TLS handshake, Finished (20):
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL]SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL]ALPN, server accepted to use http/1.1
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL]Server certificate:
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL] subject: C=CN; ST=Guangdong Province; L=Shenzhen; O=Tencent Technology (Shenzhen) Company Limited; OU=R&D; CN=*.wegame.com.cn
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL] start date: Apr 13 00:00:00 2020 GMT
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL] expire date: Jun 12 12:00:00 2021 GMT
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL] issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Secure Site CA G2
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL] SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL]Header out: POST /api/config/fcg-bin/general_cfg_query.fcg HTTP/1.1
+Host: www.wegame.com.cn
+Accept: */*
+Accept-Encoding: deflate, gzip
+Content-Length: 477
+Content-Type: multipart/form-data; boundary=------------------------1c5a48919bee39bf
+
+.
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:49:31 705 [13740][1][CGICurl]:[CURL]Type: 4, size: 477.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: HTTP/1.1 200 OK
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: Date: Sat, 23 Jan 2021 14:49:15 GMT
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: Content-Type: application/json
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: Transfer-Encoding: chunked
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: Connection: keep-alive
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: Server: Tengine/2.2.2
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: X-HANDLE-BY: 10.51.98.136
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: X-Cache-FCGI: /0.000/1611413355.752
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: Content-Encoding: gzip
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Header in: 
+.
+2021-01-23 22:49:31 783 [13740][1][CGICurl]:[CURL]Connection #0 to host www.wegame.com.cn left intact
+
+2021-01-23 22:49:31 783 [13740][2][CGICurl]:task=1073741916, curl perform success. url=https://www.wegame.com.cn/api/config/fcg-bin/general_cfg_query.fcg
+2021-01-23 22:49:31 784 [13740][2][CGICurl]:SetRspCode, rsp_code=200
+2021-01-23 22:49:31 784 [13740][2][CGICurl]:CheckResult, result=1
+2021-01-23 22:49:31 784 [10224][2][CGICurl]:release
+2021-01-23 22:49:31 842 [716][2][CGIMgr]:OnCGITaskRsp, task_id=10737, result=0, error_code=0, rsp_code=200, strategy=0, error_msg=, url=https://www.wegame.com.cn/api/config/fcg-bin/general_cfg_query.fcg, user_data=0, size=92
+2021-01-23 22:49:31 849 [716][2][CGIMgr]:AllowReport, not find ip cfg
+2021-01-23 22:49:31 849 [716][2][CGIMgr]:AllowReport, local_random_num=91
+2021-01-23 22:49:31 849 [716][2][CGIMgr]:MatchStringFromJsonArray, match success
+2021-01-23 22:49:31 849 [716][2][CGIMgr]:Report, task_id=https://www.wegame.com.cn/api/config/fcg-bin/general_cfg_query.fcg
+2021-01-23 22:49:41 993 [13740][1]Thread:recycle,left:2.
+2021-01-23 22:50:11 307 [716][2][CGIMgr]:AddCGITask, high priority task=10737
+2021-01-23 22:50:11 307 [716][2][CGIMgr]:AddCGITask, task_id=10737, url=https://www.wegame.com.cn/api/rail/web/data_filter/game_oss_config/list_all
+2021-01-23 22:50:11 308 [10224][2][CGIMgr]:CheckTasksDeque, running task num=0, import_query_task_num=0
+2021-01-23 22:50:11 308 [10224][2][CGICurl]:Start task=10737
+2021-01-23 22:50:11 308 [10224][1]Thread:start enter.
+2021-01-23 22:50:11 310 [10224][1]Thread:start,seq:98, task:98, total:3
+2021-01-23 22:50:11 310 [10224][2][CGIMgr]:StartCGITask, cgi_curl task=10737 start
+2021-01-23 22:50:11 310 [13956][1]Thread:run,seq:98, task:98
+2021-01-23 22:50:11 310 [13956][2][CGICurl]:ReqCGI, task_id=10737, strategy=0, url=https://www.wegame.com.cn/api/rail/web/data_filter/game_oss_config/list_all
+2021-01-23 22:50:11 310 [13956][2][CGICurl]:set cookie=pkey=4E0ECBBF50C82C95CF63BDFD32682479191C0A555DD7F282810C241540B0224C6E1D53207DB554753E837C3B919182AC641DCAF11CBA6;pt2gguin=o047597;skey=@R92j;tgp_biz_ticket=0100000AAD8118546911CBC861FF68277EC5429C43C2F2764506A4B4200FB5319D54FF92B8CF88441710836EA109AB0A9A8D47312A;tgp_id=22373897;tgp_ticket=B4AEAB7FE39F84796C2597254DE0CF5435ACE0F82273FF95A260CCA0F2DCA9AF17EB8C9CEA305;uin=o0907597;
+2021-01-23 22:50:11 328 [13956][1][CGICurl]:[CURL]  Trying 119.84.157.161...
+
+2021-01-23 22:50:11 328 [13956][1][CGICurl]:[CURL]TCP_NODELAY set
+
+2021-01-23 22:50:11 348 [13956][1][CGICurl]:[CURL]Connected to www.wegame.com.cn (119.84.157.161) port 443 (#0)
+
+2021-01-23 22:50:11 348 [13956][1][CGICurl]:[CURL]ALPN, offering http/1.1
+
+2021-01-23 22:50:11 349 [13956][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:50:11 349 [13956][1][CGICurl]:[CURL]TLSv1.3 (OUT), TLS handshake, Client hello (1):
+
+2021-01-23 22:50:11 349 [13956][1][CGICurl]:[CURL]Type: 6, size: 512.
+2021-01-23 22:50:11 380 [13956][1][CGICurl]:[CURL]TLSv1.3 (IN), TLS handshake, Server hello (2):
+
+2021-01-23 22:50:11 382 [13956][1][CGICurl]:[CURL]TLSv1.2 (IN), TLS handshake, Certificate (11):
+
+2021-01-23 22:50:11 382 [13956][1][CGICurl]:[CURL]TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+
+2021-01-23 22:50:11 382 [13956][1][CGICurl]:[CURL]TLSv1.2 (IN), TLS handshake, Server finished (14):
+
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]Type: 6, size: 70.
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]Type: 6, size: 1.
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]TLSv1.2 (OUT), TLS handshake, Finished (20):
+
+2021-01-23 22:50:11 384 [13956][1][CGICurl]:[CURL]Type: 6, size: 16.
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL]TLSv1.2 (IN), TLS handshake, Finished (20):
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL]SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL]ALPN, server accepted to use http/1.1
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL]Server certificate:
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL] subject: C=CN; ST=Guangdong Province; L=Shenzhen; O=Tencent Technology (Shenzhen) Company Limited; OU=R&D; CN=*.wegame.com.cn
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL] start date: Apr 13 00:00:00 2020 GMT
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL] expire date: Jun 12 12:00:00 2021 GMT
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL] issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=Secure Site CA G2
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL] SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL]Type: 6, size: 5.
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL]Header out: POST /api/rail/web/data_filter/game_oss_config/list_all HTTP/1.1
+Host: www.wegame.com.cn
+Accept: */*
+Accept-Encoding: deflate, gzip
+Cookie: tgp_ticket=B4AEAB7A1C58765EB4F8DD8BEC09E42D675299BC0742BA3FF95A260CCA0F2DCA9AF17EB8C9CEA305;tgp_id=22373897;tgp_biz_ticket=010000000000000000892B8CF7CF419A8D47312A;
+Content-Type:application/json
+Content-Length: 147
+
+.
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL]Type: 4, size: 147.
+2021-01-23 22:50:11 409 [13956][1][CGICurl]:[CURL]upload completely sent off: 147 out of 147 bytes
+
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: HTTP/1.1 200 OK
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: Date: Sat, 23 Jan 2021 14:49:55 GMT
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: Content-Type: application/json
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: Content-Length: 111
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: Connection: keep-alive
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: Server: openresty
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: X-Error-Code: 0
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]skipped cookie with bad tailmatch domain: qq.com
+
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: Set-Cookie: session_token=q+e46RY0ANoP; Max-Age=604800; Domain=qq.com; Path=/;
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: Access-Control-Allow-Credentials: true
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: Access-Control-Expose-Headers: Set-Cookie
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Header in: 
+.
+2021-01-23 22:50:11 459 [13956][1][CGICurl]:[CURL]Connection #0 to host www.wegame.com.cn left intact
+
+2021-01-23 22:50:11 459 [13956][2][CGICurl]:task=1073741917, curl perform success. url=https://www.wegame.com.cn/api/rail/web/data_filter/game_oss_config/list_all
+2021-01-23 22:50:11 460 [13956][2][CGICurl]:SetRspCode, rsp_code=200
+2021-01-23 22:50:11 460 [13956][2][CGICurl]:CheckResult, result=1
